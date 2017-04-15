@@ -9,7 +9,7 @@ body{
     background: url(images/NARUTO.png);
     background-position: center 100px;
     background-repeat: no-repeat;
-    background-size: 20%;
+    background-size: 20% contain;
 }
 
 h1{
