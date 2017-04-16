@@ -1,0 +1,26 @@
+.icon{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    overflow: hidden;
+    background: url(images/sprites.png) no-repeat;
+}
+
+.calculadora{
+    background-position: 0px 0px;
+    transition: background .1s;
+}
+
+.calculadora:hover{
+    background-position: -32px 0px;
+}
+
+.calendario{
+    background-position: -32px 0px;
+    transition: background .1s;
+}
+
+.calendario:hover{
+    background-position: 0px 0px;
+   
+}
